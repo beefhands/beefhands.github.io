@@ -97,6 +97,6 @@ You need a trained checkpoint at `checkpoints/best.pt`. The server starts automa
 
 ## Code
 
-The whole thing is at [github.com/hipml/syllabify](https://github.com/hipml/syllabify). ~300 lines of python, ~140 lines of emacs lisp.
+The whole thing is at [github.com/beefhands/syllabify](https://github.com/beefhands/syllabify). ~300 lines of python, ~140 lines of emacs lisp.
 
 

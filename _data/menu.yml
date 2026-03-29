@@ -25,7 +25,7 @@ entries:
       - title: about
         url: about
       - title: github
-        url: https://github.com/hipml
+        url: https://github.com/beefhands
       - title: hugging face
         url: https://huggingface.co/hipml
       - title: itch

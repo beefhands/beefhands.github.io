@@ -19,6 +19,6 @@ I tried building the defunct Kod project on Sequoia, but without success. Severa
 
 Despite these limitations, I'm pleased with how the theme turned out. While not an exact replica -- Emacs' treesitter doesn't distinguish between language types and user types the way Kod did -- it captures the essence of what made Kod's aesthetic so appealing.
 
-You can find my Kod-inspired Emacs theme [here](https://github.com/hipml/system-dotfiles/blob/main/emacs/themes/kodly-theme.el).
+You can find my Kod-inspired Emacs theme [here](https://github.com/beefhands/system-dotfiles/blob/main/emacs/themes/kodly-theme.el).
 
 ![Screenshot of Kodly for Emacs](images/kod3.png)
