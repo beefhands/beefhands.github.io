@@ -48,3 +48,4 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - new_haiku.sh
