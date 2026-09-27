@@ -1,0 +1,42 @@
+# Games beaten, by year. Newest year first.
+# platform is optional.
+#
+# - year: 2026
+#   games:
+#     - title: "Dark Souls"
+#       platform: "PC"
+
+currently_playing:
+  - title: "007: First Light"
+  - title: "Deus Ex (Revision mod)"
+  - title: "System Shock 2"
+  - title: "Agent 64: Spies Never Die"
+  - title: "Orbitals"
+    platform: "Switch 2"
+  - title: "Doom: The Dark Ages"
+  - title: "Indiana Jones and the Great Circle"
+  - title: "Metal Gear Solid"
+
+years:
+  - year: 2026
+    games:
+      - title: "Pokopia"
+        platform: "Switch 2"
+      - title: "Dispatch"
+        platform: "PC"
+      - title: "Deus Ex: Human Revolution"
+        platform: "PC"
+      - title: "Deus Ex: Mankind Divided"
+        platform: "PC"
+      - title: "Resident Evil Requiem"
+        platform: "PC"
+      - title: "Silent Hill f"
+        platform: "PC"
+      - title: "Resident Evil 7"
+        platform: "PC"
+      - title: "Resident Evil Village"
+        platform: "PC"
+      - title: "Resident Evil 2"
+        platform: "PC"
+      - title: "Resident Evil 3"
+        platform: "PC"

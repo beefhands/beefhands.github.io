@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<a class="back-link" href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text | default: ".." }}</a>
+
+<h1>{{ page.title }}</h1>
+
+<style>
+.games-year { margin: 1.8em 0; }
+.games-year h2 { font-size: 1.1em; margin: 0 0 0.5em 0; }
+.games-year ol, .games-year ul { padding-left: 1.6em; }
+.games-year li { margin: 0.3em 0; }
+.game-platform { color: #888; font-family: monospace; font-size: 0.85em; }
+.games-year .empty { color: #888; font-style: italic; }
+.currently-playing ul { list-style: none; padding-left: 0; }
+@media (prefers-color-scheme: dark) {
+  .game-platform { color: #999; }
+  .games-year .empty { color: #999; }
+}
+</style>
+
+{% if site.data.games.currently_playing.size > 0 %}
+<section class="games-year currently-playing">
+  <h2>currently playing</h2>
+  <ul>
+    {% for game in site.data.games.currently_playing %}
+    <li>{{ game.title }}{% if game.platform %} <span class="game-platform">[{{ game.platform }}]</span>{% endif %}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% assign years = site.data.games.years | sort: "year" | reverse %}
+{% for year_entry in years %}
+<section class="games-year">
+  <h2>{{ year_entry.year }}</h2>
+  {% if year_entry.games.size > 0 %}
+  <ol>
+    {% for game in year_entry.games %}
+    <li>{{ game.title }}{% if game.platform %} <span class="game-platform">[{{ game.platform }}]</span>{% endif %}</li>
+    {% endfor %}
+  </ol>
+  {% else %}
+  <p class="empty">nothing yet</p>
+  {% endif %}
+</section>
+{% endfor %}
