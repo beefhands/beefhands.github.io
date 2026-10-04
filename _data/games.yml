@@ -7,14 +7,15 @@
 #       platform: "PC"
 
 currently_playing:
-  - title: "007: First Light"
   - title: "Deus Ex (Revision mod)"
   - title: "System Shock 2"
   - title: "Agent 64: Spies Never Die"
   - title: "Orbitals"
     platform: "Switch 2"
   - title: "Doom: The Dark Ages"
+    platform: "PC"
   - title: "Indiana Jones and the Great Circle"
+    platform: "PC"
   - title: "Metal Gear Solid"
 
 years:
@@ -39,4 +40,6 @@ years:
       - title: "Resident Evil 2"
         platform: "PC"
       - title: "Resident Evil 3"
+        platform: "PC"
+      - title: "007: First Light"
         platform: "PC"
