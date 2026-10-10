@@ -31,6 +31,17 @@ layout: default
 </section>
 {% endif %}
 
+{% if site.data.games.on_pause.size > 0 %}
+<section class="games-year currently-playing">
+  <h2>on pause</h2>
+  <ul>
+    {% for game in site.data.games.on_pause %}
+    <li>{{ game.title }}{% if game.platform %} <span class="game-platform">[{{ game.platform }}]</span>{% endif %}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
 {% assign years = site.data.games.years | sort: "year" | reverse %}
 {% for year_entry in years %}
 <section class="games-year">

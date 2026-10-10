@@ -8,6 +8,10 @@
 
 currently_playing:
   - title: "Deus Ex (Revision mod)"
+  - title: "Control Resonant"
+  - title: "Metal Gear Solid 3"
+
+on_pause:
   - title: "System Shock 2"
   - title: "Agent 64: Spies Never Die"
   - title: "Orbitals"
