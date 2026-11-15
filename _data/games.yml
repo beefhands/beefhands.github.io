@@ -7,12 +7,10 @@
 #       platform: "PC"
 
 currently_playing:
-  - title: "Legend of Zelda: Ocarina of Time"
-    platform: "Switch 2"
+  - title: "Metal Gear Solid 3"
   - title: "Final Fantasy Resonance"
   - title: "Deus Ex"
   - title: "Control Resonant"
-  - title: "Metal Gear Solid 3"
 
 on_pause:
   - title: "System Shock 2"
@@ -39,3 +37,5 @@ years:
       - title: "Resident Evil 3"
       - title: "007: First Light"
       - title: "Resident Evil 4"
+      - title: "Legend of Zelda: Ocarina of Time"
+        platform: "Switch 2"
