@@ -1,7 +1,9 @@
 # Games beaten, by year. Newest year first.
-# platform is optional.
+# platform is optional. goty is optional (same shape as a game).
 #
 # - year: 2026
+#   goty:
+#     title: "Dark Souls"
 #   games:
 #     - title: "Dark Souls"
 #       platform: "PC"
@@ -39,3 +41,19 @@ years:
       - title: "Resident Evil 4"
       - title: "Legend of Zelda: Ocarina of Time"
         platform: "Switch 2"
+  - year: 2025
+    goty:
+      title: "Clair Obscur: Expedition 33"
+    games: []
+  - year: 2024
+    goty:
+      title: "Dark Souls II"
+    games: []
+  - year: 2023
+    goty:
+      title: "Armored Core VI: Fires of Rubicon"
+    games: []
+  - year: 2022
+    goty:
+      title: "Final Fantasy XIV"
+    games: []

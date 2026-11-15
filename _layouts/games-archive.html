@@ -12,10 +12,12 @@ layout: default
 .games-year ol, .games-year ul { padding-left: 1.6em; }
 .games-year li { margin: 0.3em 0; }
 .game-platform { color: #888; font-family: monospace; font-size: 0.85em; }
+.games-year .goty { margin: 0 0 0.5em 0; }
+.games-year .goty-label { color: #888; font-family: monospace; font-size: 0.85em; }
 .games-year .empty { color: #888; font-style: italic; }
 .currently-playing ul { list-style: none; padding-left: 0; }
 @media (prefers-color-scheme: dark) {
-  .game-platform { color: #999; }
+  .game-platform, .games-year .goty-label { color: #999; }
   .games-year .empty { color: #999; }
 }
 </style>
@@ -46,13 +48,16 @@ layout: default
 {% for year_entry in years %}
 <section class="games-year">
   <h2>{{ year_entry.year }}</h2>
+  {% if year_entry.goty %}
+  <p class="goty"><span class="goty-label">goty</span> {{ year_entry.goty.title }}{% if year_entry.goty.platform %} <span class="game-platform">[{{ year_entry.goty.platform }}]</span>{% endif %}</p>
+  {% endif %}
   {% if year_entry.games.size > 0 %}
   <ol>
     {% for game in year_entry.games %}
     <li>{{ game.title }}{% if game.platform %} <span class="game-platform">[{{ game.platform }}]</span>{% endif %}</li>
     {% endfor %}
   </ol>
-  {% else %}
+  {% elsif year_entry.goty == nil %}
   <p class="empty">nothing yet</p>
   {% endif %}
 </section>
