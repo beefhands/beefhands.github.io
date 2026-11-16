@@ -39,7 +39,7 @@ years:
       - title: "Resident Evil 3"
       - title: "007: First Light"
       - title: "Resident Evil 4"
-      - title: "Legend of Zelda: Ocarina of Time"
+      - title: "The Legend of Zelda: Ocarina of Time"
         platform: "Switch 2"
   - year: 2025
     goty:
@@ -56,4 +56,12 @@ years:
   - year: 2022
     goty:
       title: "Final Fantasy XIV"
+    games: []
+  - year: 2021
+    goty:
+      title: "Metroid Dread"
+    games: []
+  - year: 2020
+    goty:
+      title: "The Legend of Zelda: Majora's Mask 3D"
     games: []
